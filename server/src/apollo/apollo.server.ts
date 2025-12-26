@@ -2,8 +2,8 @@ import { ApolloServer } from "@apollo/server";
 import { expressMiddleware } from "@as-integrations/express5";
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import { Application, json } from "express";
-import { roomTypeDef } from "../typeDefs/roomTypeDef";
-import { roomResolvers } from "../resolvers/room.resolver";
+import { roomTypeDef } from "../graphql/typeDefs/roomTypeDef";
+import { roomResolvers } from "../graphql/resolvers/room.resolver";
 
 export const startApolloServer = async (app: Application) => {
     const typeDefs = [roomTypeDef];

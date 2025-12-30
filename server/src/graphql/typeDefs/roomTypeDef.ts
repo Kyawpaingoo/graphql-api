@@ -13,6 +13,7 @@ export const roomTypeDef = gql `
     pricePerNight: Float!
     capacity: Int!
     isAvailable: Boolean!
+    location: String!
     images: [RoomImages] 
     reviews: [String]
     createdAt: String
@@ -25,6 +26,7 @@ export const roomTypeDef = gql `
     pricePerNight: Float!
     capacity: Int!
     isAvailable: Boolean!
+    location: String!
     images: [String] 
     reviews: [String]
   }

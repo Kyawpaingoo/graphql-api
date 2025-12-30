@@ -23,6 +23,10 @@ const roomSchema = new mongoose.Schema(
             required: [true, "Please enter is available"],
             default: true
         },
+        location: {
+            type: String,
+            required: [true, "Please enter location"]
+        },
         images: [{
             url: String,
             public_id: String

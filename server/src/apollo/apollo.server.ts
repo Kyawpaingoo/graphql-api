@@ -4,6 +4,7 @@ import { makeExecutableSchema } from "@graphql-tools/schema";
 import { Application, json } from "express";
 import { roomTypeDef } from "../graphql/typeDefs/roomTypeDef";
 import { roomResolvers } from "../graphql/resolvers/room.resolver";
+import cors from 'cors';
 
 export const startApolloServer = async (app: Application) => {
     const typeDefs = [roomTypeDef];
@@ -19,6 +20,10 @@ export const startApolloServer = async (app: Application) => {
     });
 
     await apolloServer.start();
-
-    app.use('/graphql', json(), expressMiddleware(apolloServer));
+    app.use('/graphql', cors(
+        {
+            credentials: true,
+            origin: 'http://localhost:5173'
+        }
+    ), json(), expressMiddleware(apolloServer));
 }

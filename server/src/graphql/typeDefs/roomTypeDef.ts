@@ -8,8 +8,10 @@ export const roomTypeDef = gql `
 
   type Room {
     id: ID!
+    title: String!
     roomNumber: String!
     type: String!
+    description: String!
     pricePerNight: Float!
     capacity: Int!
     isAvailable: Boolean!
@@ -21,8 +23,10 @@ export const roomTypeDef = gql `
   }
 
   input RoomInput {
+    title: String!
     roomNumber: String!
     type: String!
+    description: String!
     pricePerNight: Float!
     capacity: Int!
     isAvailable: Boolean!

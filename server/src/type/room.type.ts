@@ -1,7 +1,9 @@
 export type RoomDto = {
     id: string
+    title: string
     roomNumber: string
     type: string
+    description: string
     pricePerNight: number
     capacity: number
     isAvailable: boolean

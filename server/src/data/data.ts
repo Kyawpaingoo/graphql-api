@@ -2,6 +2,8 @@ export const seedData = [
   {
     id: "room-001",
     roomNumber: "101",
+    title: "Cozy Urban Solo",
+    description: "A peaceful and efficient space designed specifically for solo travelers and business professionals seeking a quiet retreat in Yangon.",
     type: "Standard Single",
     pricePerNight: 85.00,
     capacity: 1,
@@ -20,6 +22,8 @@ export const seedData = [
   {
     id: "room-002",
     roomNumber: "102",
+    title: "Skyline Deluxe Double",
+    description: "Experience comfort with a view. This room features a plush king-sized bed and large windows overlooking the vibrant streets of Yangon.",
     type: "Deluxe Double",
     pricePerNight: 145.50,
     capacity: 2,
@@ -38,6 +42,8 @@ export const seedData = [
   {
     id: "room-003",
     roomNumber: "201",
+    title: "Grand Executive Suite",
+    description: "Our premier suite offers an expansive living area and a fully stocked mini-bar, making it the perfect choice for anniversaries and luxury stays.",
     type: "Executive Suite",
     pricePerNight: 299.99,
     capacity: 2,
@@ -60,6 +66,8 @@ export const seedData = [
   {
     id: "room-004",
     roomNumber: "205",
+    title: "Family Garden Haven",
+    description: "Designed for families, this spacious room offers convenient access to the pool area and enough space for everyone to relax comfortably.",
     type: "Family Room",
     pricePerNight: 210.00,
     capacity: 4,
@@ -78,6 +86,8 @@ export const seedData = [
   {
     id: "room-005",
     roomNumber: "301",
+    title: "Royal Mandalay Penthouse",
+    description: "The ultimate luxury experience in Mandalay. Enjoy breathtaking panoramic views and world-class service in our most exclusive residence.",
     type: "Penthouse",
     pricePerNight: 750.00,
     capacity: 3,
@@ -96,6 +106,8 @@ export const seedData = [
   {
     id: "room-006",
     roomNumber: "104",
+    title: "Essential Twin Comfort",
+    description: "A budget-friendly choice for friends or colleagues. This room provides all the essential amenities for a functional and pleasant stay.",
     type: "Economy Twin",
     pricePerNight: 75.00,
     capacity: 2,
@@ -114,6 +126,8 @@ export const seedData = [
   {
     id: "room-007",
     roomNumber: "210",
+    title: "Classic Double Retreat",
+    description: "A modern and clean double room offering a peaceful environment for travelers exploring the historic city of Mandalay.",
     type: "Standard Double",
     pricePerNight: 120.00,
     capacity: 2,
@@ -132,6 +146,8 @@ export const seedData = [
   {
     id: "room-008",
     roomNumber: "402",
+    title: "Industrial Chic Loft",
+    description: "A stylish studio featuring an industrial design aesthetic. Perfect for those who appreciate modern architecture and open-concept living in Naypyidaw.",
     type: "Studio Loft",
     pricePerNight: 185.00,
     capacity: 2,
@@ -150,6 +166,8 @@ export const seedData = [
   {
     id: "room-009",
     roomNumber: "105",
+    title: "Serene Accessible Single",
+    description: "A thoughtfully designed room focused on accessibility and ease of movement, ensuring a comfortable stay for all guests.",
     type: "Accessible Single",
     pricePerNight: 95.00,
     capacity: 1,
@@ -168,6 +186,8 @@ export const seedData = [
   {
     id: "room-010",
     roomNumber: "501",
+    title: "The Sovereign Presidential Suite",
+    description: "The pinnacle of luxury. This suite features multiple rooms, premium finishes, and unmatched views of the capital, tailored for elite travelers.",
     type: "Presidential Suite",
     pricePerNight: 1200.00,
     capacity: 4,

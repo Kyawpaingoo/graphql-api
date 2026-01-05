@@ -121,6 +121,6 @@
     @apply bg-background text-foreground;
   }
   .layout {
-    @apply max-w-7xl mx-auto
+    @apply max-w-7xl mx-auto p-6
   }
 }
